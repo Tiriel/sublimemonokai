@@ -331,6 +331,35 @@ hi! link diffLine      SublimeWarmGrey
 hi! link diffRemoved   SublimePink
 hi! link diffSubname   SublimeWarmGrey
 
+" easytags (https://github.com/xolox/vim-easytags/blob/master/doc/easytags.txt)
+
+hi! clear awkFunctionTag
+hi! clear csMethodTag
+hi! clear cTypeTag
+hi! clear cEnumTag
+hi! clear cPreProcTag
+hi! clear cFunctionTag
+hi! clear cMemberTag
+hi! clear javaClassTag
+hi! clear javaInterfaceTag
+hi! clear javaMethodTag
+hi! clear luaFuncTag
+hi! clear perlFunctionTag
+hi! clear phpFunctionsTag
+hi! clear phpClassesTag
+hi! clear pythonFunctionTag
+hi! clear pythonMethodTag
+hi! clear pythonClassTag
+hi! clear rubyModuleNameTag
+hi! clear rubyClassNameTag
+hi! clear rubyMethodNameTag
+hi! clear shFunctionTag
+hi! clear tclCommandTag
+hi! clear vimAutoGroupTag
+hi! clear vimCommandTag
+hi! clear vimFuncNameTag
+hi! clear vimScriptFuncNameTag
+
 " eRuby
 
 " call s:h('erubyDelimiter',              {})
