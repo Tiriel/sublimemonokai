@@ -510,9 +510,9 @@ hi! link phpOperator         Operator
 hi! link phpMemberSelector   Operator
 hi! link phpInclude          PreProc
 hi! link phpDefine           PreProc
-hi! link phpKeyword          SublimeRed
+hi! link phpKeyword          SublimePink
 hi! link phpSuperglobals     SublimeWhite
-hi! link phpType             SublimeRed
+hi! link phpType             SublimePink
 hi! link phpNullValue        phpType
 hi! link phpParent           Special
 hi! link phpSpecialChar      SpecialChar
