@@ -1,6 +1,6 @@
 " File:       monokai.vim
 " Maintainer: Erich Gubler (erichdongubler)
-" URL:        https://github.com/erichdongubler/vim-sublime-monokai
+" URL:        https://github.com/tiriel/sublimemonokai
 " License:    MIT
 
 " Initialisation
@@ -26,7 +26,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let colors_name = 'sublimemonokai'
+let colors_name = 'monokai'
 
 fun! s:h(group, style)
   let s:ctermformat = 'NONE'
@@ -484,6 +484,42 @@ hi! link NERDTreeUp              SublimeWhite
 hi! link NERDTreeGitStatusModified SublimeOrange
 hi! link NERDTreeGitStatusRenamed SublimeOrange
 hi! link NERDTreeGitStatusUntracked SublimeGreen
+
+" PHP
+hi! link phpComment          SublimeGrey
+hi! link phpMagicConstants   SublimePurple
+hi! link phpServerVars       SublimeWhite
+hi! link phpConstants        SublimePurple
+hi! link phpBoolean          SublimePurple
+hi! link phpNumber           SublimeWhite
+hi! link phpStringSingle     SublimeYellow
+hi! link phpStringDouble     SublimeYellow
+hi! link phpBacktick         SublimeYellow
+hi! link phpStringDelimiter  SublimeYellow
+hi! link phpHereDoc          SublimeYellow
+hi! link phpNowDoc           SublimeYellow
+hi! link phpFunctions        SublimeAqua
+hi! link phpMethods          SublimeAqua
+hi! link phpClasses          SublimeWhite
+hi! link phpException        SublimeWhite
+hi! link phpIdentifier       Identifier
+hi! link phpIdentifierSimply Identifier
+hi! link phpStatement        Statement
+hi! link phpStructure        Statement
+hi! link phpOperator         Operator
+hi! link phpMemberSelector   Operator
+hi! link phpInclude          PreProc
+hi! link phpDefine           PreProc
+hi! link phpKeyword          Keyword
+hi! link phpSuperglobals     Type
+hi! link phpType             Type
+hi! link phpNullValue        phpType
+hi! link phpParent           Special
+hi! link phpSpecialChar      SpecialChar
+hi! link phpStrEsc           SpecialChar
+hi! link phpParentError      Error
+hi! link phpOctalError       Error
+hi! link phpTodo             Todo
 
 " Python
 
