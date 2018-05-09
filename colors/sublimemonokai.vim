@@ -617,7 +617,7 @@ hi! link vimFuncName      SublimeAqua
 hi! link vimFuncNameTag   SublimeAqua
 hi! link vimFunction      SublimeGreen
 hi! link vimFuncVar       SublimeContextParam
-hi! link vimHiGroup       SublimeGreen
+hi! link vimHiGroup       Normal
 hi! link vimIsCommand     SublimeAqua
 hi! link vimMapModKey     SublimeAqua
 hi! link vimMapRhs        SublimeYellow
