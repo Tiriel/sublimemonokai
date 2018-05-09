@@ -499,11 +499,12 @@ hi! link phpStringDelimiter  SublimeYellow
 hi! link phpHereDoc          SublimeYellow
 hi! link phpNowDoc           SublimeYellow
 hi! link phpFunctions        SublimeAqua
-hi! link phpFunction         SublimeAqua
+hi! link phpFunction         SublimeGreen
 hi! link phpMethods          SublimeAqua
+hi! link phpMethodsVar       SublimeAqua
 hi! link phpClasses          SublimeWhite
 hi! link phpException        SublimeWhite
-hi! link phpIdentifier       SublimeAqua
+hi! link phpIdentifier       Identifier
 hi! link phpIdentifierSimply Identifier
 hi! link phpStatement        Statement
 hi! link phpStructure        Statement
