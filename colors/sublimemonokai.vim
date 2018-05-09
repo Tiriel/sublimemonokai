@@ -1,4 +1,4 @@
-" File:       monokai.vim
+" File:       sublimemonokai.vim
 " Maintainer: Erich Gubler (erichdongubler)
 " URL:        https://github.com/tiriel/sublimemonokai
 " License:    MIT
@@ -26,7 +26,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let colors_name = 'monokai'
+let g:colors_name = 'monotai'
 
 fun! s:h(group, style)
   let s:ctermformat = 'NONE'
