@@ -26,7 +26,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'monotai'
+let g:colors_name = 'monokai'
 
 fun! s:h(group, style)
   let s:ctermformat = 'NONE'
@@ -510,8 +510,8 @@ hi! link phpOperator         Operator
 hi! link phpMemberSelector   Operator
 hi! link phpInclude          PreProc
 hi! link phpDefine           PreProc
-hi! link phpKeyword          Keyword
-hi! link phpSuperglobals     Type
+hi! link phpKeyword          SublimeRed
+hi! link phpSuperglobals     SublimeWhite
 hi! link phpType             Type
 hi! link phpNullValue        phpType
 hi! link phpParent           Special
