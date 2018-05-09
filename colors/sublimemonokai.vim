@@ -467,12 +467,12 @@ hi! link makeCmdNextLine Normal
 
 " NERDTree
 
-hi! link NERDTreeBookmarkName    SublimeYellow
+hi! link NERDTreeBookmarkName    SublimeGreen
 hi! link NERDTreeBookmarksHeader SublimePink
 hi! link NERDTreeBookmarksLeader SublimeBlack
 hi! link NERDTreeCWD             SublimePink
-hi! link NERDTreeClosable        SublimeYellow
-hi! link NERDTreeDir             SublimeYellow
+hi! link NERDTreeClosable        SublimeAqua
+hi! link NERDTreeDir             SublimeAqua
 hi! link NERDTreeDirSlash        SublimeGrey
 hi! link NERDTreeFlags           SublimeDarkGrey
 hi! link NERDTreeHelp            SublimeYellow
