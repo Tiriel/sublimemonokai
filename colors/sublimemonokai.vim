@@ -487,12 +487,12 @@ hi! link NERDTreeGitStatusUntracked SublimeGreen
 
 " PHP
 hi! link phpComment          SublimeGrey
-hi! phpCommentStar           phpComment
-hi! phpDocComment            phpComment
-hi! phpCommentTitle          phpComment
-hi! phpDocTags               phpComment
-hi! phpDocParam              phpComment
-hi! phpDocIdentifier         phpComment
+hi! link phpCommentStar      phpComment
+hi! link phpDocComment       phpComment
+hi! link phpCommentTitle     phpComment
+hi! link phpDocTags          phpComment
+hi! link phpDocParam         phpComment
+hi! link phpDocIdentifier    phpComment
 hi! link phpMagicConstants   SublimePurple
 hi! link phpServerVars       SublimeWhite
 hi! link phpConstants        SublimePurple
