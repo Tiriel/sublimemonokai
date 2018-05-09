@@ -512,7 +512,7 @@ hi! link phpInclude          PreProc
 hi! link phpDefine           PreProc
 hi! link phpKeyword          SublimeRed
 hi! link phpSuperglobals     SublimeWhite
-hi! link phpType             Type
+hi! link phpType             SublimeRed
 hi! link phpNullValue        phpType
 hi! link phpParent           Special
 hi! link phpSpecialChar      SpecialChar
