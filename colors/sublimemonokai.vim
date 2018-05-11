@@ -507,7 +507,7 @@ hi! link phpNowDoc           SublimeYellow
 hi! link phpFunctions        SublimeAqua
 hi! link phpFunction         SublimeGreen
 hi! link phpMethods          SublimeAqua
-hi! link phpMethod           SublimeAqua
+hi! link phpMethod           SublimeGreen
 hi! link phpClasses          SublimeWhite
 hi! link phpException        SublimeWhite
 hi! link phpIdentifier       Identifier
